@@ -1,0 +1,23 @@
+html.static_pages-index {
+  height:100%;  
+  body {
+    color:#ffffff;
+    background:#222;
+    height:100%;
+    overflow:hidden;  
+  }
+}
+.chess-board {
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-25vh;
+  margin-left:-25vh;
+  height:50vh;
+  width:50vh;
+  div {
+    width:12.5%;
+    height:12.5%;
+    float:left;
+  }
+}
