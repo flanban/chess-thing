@@ -1,13 +1,3 @@
-html.static_pages-index {
-  height:100%;
-  font-family: 'ProximaNovaBold';
-  body {
-    color:#ffffff;
-    background:#222;
-    height:100%;
-    overflow:hidden;
-  }
-}
 .chess-board {
   position:absolute;
   top:50%;
@@ -20,5 +10,11 @@ html.static_pages-index {
     width:12.5%;
     height:12.5%;
     float:left;
+    &.dark {
+      background:#ababab;
+    }
+    &.light {
+      background:white;
+    }
   }
 }
