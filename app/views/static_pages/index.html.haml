@@ -2,4 +2,10 @@
 =render 'shared/menu_left'
 =render 'shared/menu_bottom'
 
-#mainChessBoard.chess-board
+#heatmap-example-2.cdv-heatmap.chess-board
+
+
+
+
+%script
+  d3.json('https://ebemunk.github.io/chess-dataviz/data/wrc.json', function(err, data) {var movePaths = new ChessDataViz.MovePaths('#movepaths', null, data.moves);});
